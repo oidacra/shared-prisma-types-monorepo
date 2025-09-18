@@ -1,0 +1,9 @@
+{
+  "name": "prisma-generated",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/prisma-generated/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project prisma-generated --web",
+  "targets": {}
+}

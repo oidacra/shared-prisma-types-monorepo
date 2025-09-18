@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@shared/prisma-generated/client": [
+        "libs/prisma-generated/src/client.ts"
+      ],
+      "@shared/prisma-generated/types": [
+        "libs/prisma-generated/src/types.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
