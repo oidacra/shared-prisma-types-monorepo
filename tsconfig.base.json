@@ -16,10 +16,10 @@
     "baseUrl": ".",
     "paths": {
       "@shared/prisma-generated/client": [
-        "libs/prisma-generated/src/client.ts"
+        "libs/prisma-generated/src/lib/client.ts"
       ],
       "@shared/prisma-generated/types": [
-        "libs/prisma-generated/src/types.ts"
+        "libs/prisma-generated/src/lib/types.ts"
       ]
     }
   },

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NxWelcome } from './nx-welcome';
+import {Post} from '@shared/prisma-generated/types'
 
 @Component({
   imports: [NxWelcome, RouterModule],
@@ -10,4 +11,5 @@ import { NxWelcome } from './nx-welcome';
 })
 export class App {
   protected title = 'blog-app';
+  protected posts: Post[] = [];
 }
