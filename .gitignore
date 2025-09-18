@@ -47,5 +47,5 @@ Thumbs.db
 
 vite.config.*.timestamp*
 vitest.config.*.timestamp*
-/libs/prisma-generated/generated
+/libs/prisma-generated/src/lib/generated
 .env
