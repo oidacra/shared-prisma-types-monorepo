@@ -90,7 +90,7 @@ npx prisma generate
 
 ## 📖 Learn More
 
-This setup uses Prisma's new `prisma-client` generator to create reusable types outside of `node_modules`. Read the full guide: [How to Use Prisma Generated Types with Angular and NestJS](https://your-blog-link.com)
+This setup uses Prisma's new `prisma-client` generator to create reusable types outside of `node_modules`. Read the full guide: [Achieving Type Safety Across Angular and NestJS with Prisma's New Generator](https://arcadioquintero.com/achieving-type-safety-across-angular-and-nestjs-with-prismas-new-generator)
 
 ---
 
